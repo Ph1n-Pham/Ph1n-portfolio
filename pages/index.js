@@ -98,8 +98,9 @@ export default function Home() {
         </div>
 
         <div className="mt-10 laptop:mt-40 p-2 laptop:p-0" ref={aboutRef}>
+
           <h1 className="text-2xl text-bold">🌟About me</h1>
-          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5">
+          <p className="tablet:m-10 mt-2 text-xl laptop:text-3xl w-full laptop:w-3/5" style={{ fontFamily: 'Lato, sans-serif' }}>
             {data.aboutpara}
           </p>
         </div>
